@@ -8,6 +8,7 @@ namespace DeleteLine
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Informe o número do relatório");
             string report = Console.ReadLine()!;
             string basePath = @$"C:\teste\Arquivos\{report}";
             string[] filePaths;
